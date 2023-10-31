@@ -8,7 +8,6 @@
 #>
 
 ### Functions ###
-
 function Get-InstalledApps {
     $appListFull=@()
     $appListFull = Get-WmiObject Win32_Product | Sort-Object Name
